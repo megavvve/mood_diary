@@ -1,0 +1,42 @@
+name: mood_diary
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.10+1
+  intl: ^0.19.0
+  paged_vertical_calendar: ^1.1.8
+  provider: ^6.1.2
+  table_calendar: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svg/
+    - assets/svg/calm.svg
+    - assets/svg/power.svg
+    - assets/svg/rabies.svg
+    - assets/svg/sad.svg
+    - assets/svg/scary.svg
+    - assets/svg/smile.svg
+    - assets/png/
+    - assets/png/power.png
+    - assets/png/calm.png
+    
+    - assets/png/rabies.png
+    - assets/png/sad.png
+    - assets/png/scary.png
+    - assets/png/smile.png
